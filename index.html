@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>gobetween by yyyar</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/yyyar/gobetween">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/yyyar/gobetween/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/yyyar/gobetween/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>gobetween</h1>
+          <p>Modern &amp; minimalistic proxy server for the Сloud era</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/yyyar">yyyar</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <p><strong>gobetween</strong> -  modern &amp; minimalistic proxy server for the <g-emoji alias="cloud" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/2601.png">☁️</g-emoji> Cloud era.</p>
+
+<h2>
+<a id="features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h2>
+
+<ul>
+<li><p>TCP Proxy (udp and more will come later)</p></li>
+<li><p>Clear and beautiful TOML config file.</p></li>
+<li>
+<p>Discovery</p>
+
+<ul>
+<li>
+<strong>Static</strong> - hardcode backends in config file</li>
+<li>
+<strong>Docker</strong> - query backends from Docker / Swarm API filtered by label</li>
+<li>
+<strong>Exec</strong> - execte arbitrary program and read backends from it's output</li>
+<li>
+<strong>JSON</strong> - make http query and parse backends from response json</li>
+<li>
+<strong>Plaintext</strong> - make http query and parse backends from response text with regexps</li>
+<li>
+<strong>SRV</strong> - query SRV server for a backends</li>
+</ul>
+</li>
+<li>
+<p>Healthchecks</p>
+
+<ul>
+<li>
+<strong>Ping</strong> - simple TCP ping healtcheck</li>
+<li>
+<strong>Exec</strong> - execute external program passing host &amp; port, and read healtcheck status from the stdout</li>
+</ul>
+</li>
+<li>
+<p>Balancing</p>
+
+<ul>
+<li><strong>Iphash</strong></li>
+<li><strong>Leastconn</strong></li>
+<li><strong>Roundrobin</strong></li>
+<li><strong>Weight</strong></li>
+</ul>
+</li>
+<li><p>Integrates seamlessly with Docker (thanks yo docker discovery) and with any custom syste (thanks to exec discovery and healchecks)!</p></li>
+</ul>
+
+<p>For more info checkout <a href="Github%20Repository">https://github.com/yyyar/gobetween</a></p>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>

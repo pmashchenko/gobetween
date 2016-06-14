@@ -1,0 +1,6 @@
+{
+  "name": "gobetween",
+  "tagline": "Modern & minimalistic proxy server for the Сloud era",
+  "body": "**gobetween** -  modern & minimalistic proxy server for the :cloud: Cloud era.\r\n\r\n## Features\r\n\r\n* TCP Proxy (udp and more will come later)\r\n\r\n* Clear and beautiful TOML config file.\r\n\r\n* Discovery\r\n  * **Static** - hardcode backends in config file\r\n  * **Docker** - query backends from Docker / Swarm API filtered by label\r\n  * **Exec** - execte arbitrary program and read backends from it's output\r\n  * **JSON** - make http query and parse backends from response json\r\n  * **Plaintext** - make http query and parse backends from response text with regexps\r\n  * **SRV** - query SRV server for a backends\r\n\r\n* Healthchecks\r\n  * **Ping** - simple TCP ping healtcheck\r\n  * **Exec** - execute external program passing host & port, and read healtcheck status from the stdout\r\n\r\n* Balancing\r\n  * **Iphash**\r\n  * **Leastconn**\r\n  * **Roundrobin**\r\n  * **Weight**\r\n\r\n* Integrates seamlessly with Docker (thanks yo docker discovery) and with any custom syste (thanks to exec discovery and healchecks)!\r\n\r\nFor more info checkout [https://github.com/yyyar/gobetween](Github Repository)",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
